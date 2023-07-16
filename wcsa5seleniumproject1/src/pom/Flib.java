@@ -1,4 +1,4 @@
-package dataDrivenFramework;
+package pom;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -24,7 +24,6 @@ public class Flib {
 		String data = cell.getStringCellValue();
 		return data;
 	}
-	
 
 	public int getLastRowCount(String ExcelPath, String SheetName) throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream(ExcelPath);
