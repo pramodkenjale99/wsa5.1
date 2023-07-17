@@ -11,12 +11,12 @@
       <![CDATA[This is N TestNG Class]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-15T15:41:38 IST" name="Suite" finished-at="2023-07-15T15:41:38 IST" duration-ms="125">
+  <suite started-at="2023-07-17T11:24:27 IST" name="Suite1" finished-at="2023-07-17T11:24:27 IST" duration-ms="99">
     <groups>
     </groups>
-    <test started-at="2023-07-15T15:41:38 IST" name="Test" finished-at="2023-07-15T15:41:38 IST" duration-ms="125">
+    <test started-at="2023-07-17T11:24:27 IST" name="Test1" finished-at="2023-07-17T11:24:27 IST" duration-ms="99">
       <class name="testNGPackage.Sumo">
-        <test-method signature="N()[pri:0, instance:testNGPackage.Sumo@a38c7fe]" started-at="2023-07-15T15:41:38 IST" name="N" finished-at="2023-07-15T15:41:38 IST" duration-ms="4" status="PASS">
+        <test-method signature="N()[pri:0, instance:testNGPackage.Sumo@a38c7fe]" started-at="2023-07-17T11:24:27 IST" name="N" finished-at="2023-07-17T11:24:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is N TestNG Class]]>
@@ -25,7 +25,7 @@
         </test-method> <!-- N -->
       </class> <!-- testNGPackage.Sumo -->
       <class name="testNGPackage.Demo">
-        <test-method signature="f()[pri:0, instance:testNGPackage.Demo@52b1beb6]" started-at="2023-07-15T15:41:38 IST" name="f" finished-at="2023-07-15T15:41:38 IST" duration-ms="16" status="PASS">
+        <test-method signature="f()[pri:0, instance:testNGPackage.Demo@52b1beb6]" started-at="2023-07-17T11:24:27 IST" name="f" finished-at="2023-07-17T11:24:27 IST" duration-ms="13" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is demo  in TestNG class]]>
@@ -34,7 +34,7 @@
         </test-method> <!-- f -->
       </class> <!-- testNGPackage.Demo -->
       <class name="testNGPackage.Remo">
-        <test-method signature="S()[pri:0, instance:testNGPackage.Remo@4d5650ae]" started-at="2023-07-15T15:41:38 IST" name="S" finished-at="2023-07-15T15:41:38 IST" duration-ms="5" status="PASS">
+        <test-method signature="S()[pri:0, instance:testNGPackage.Remo@4d5650ae]" started-at="2023-07-17T11:24:27 IST" name="S" finished-at="2023-07-17T11:24:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[This is Swapx TestNG Class$]]>
@@ -42,6 +42,6 @@
           </reporter-output>
         </test-method> <!-- S -->
       </class> <!-- testNGPackage.Remo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

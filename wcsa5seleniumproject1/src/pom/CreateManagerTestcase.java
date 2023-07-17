@@ -2,7 +2,7 @@ package pom;
 
 import java.io.IOException;
 
-public class ValidCreateUserTestCase extends BaseTest{
+public class CreateManagerTestcase extends BaseTest{
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
