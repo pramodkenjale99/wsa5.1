@@ -15,7 +15,6 @@ public class Scenario17 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
 		driver.get("https://www.bluestone.com/");
 		driver.findElement(By.id("denyBtn")).click();
 		WebElement target = driver.findElement(By.xpath("//a[text()='Coins ']"));

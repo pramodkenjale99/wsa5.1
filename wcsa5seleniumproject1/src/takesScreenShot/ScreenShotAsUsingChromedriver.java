@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -15,18 +16,18 @@ public class ScreenShotAsUsingChromedriver {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		System.setProperty("driver.chrome.driver", "./drivers/chromedriver.exe");
 		
-	    ChromeDriver cdriver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 	    
-		cdriver.manage().window().maximize();
-		cdriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		cdriver.get("https://twitter.com/i/flow/login");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://open.spotify.com/");
+		TakesScreenshot tsc=(TakesScreenshot)driver;
 		
-		 File src = cdriver.getScreenshotAs(OutputType.FILE);
-		 
-		 File dest = new File("./ScreenShots/Twitter.png");
-		 
-		 Files.copy(src, dest);
-		 Thread.sleep(5000);
+		File src = tsc.getScreenshotAs(OutputType.FILE);
+		
+		File dest = new File("./ScreenShots/Spotify1.png");
+		
+		Files.copy(src, dest);
 		 
 		 
 

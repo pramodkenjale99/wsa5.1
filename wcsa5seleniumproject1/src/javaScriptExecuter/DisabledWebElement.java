@@ -26,8 +26,6 @@ public class DisabledWebElement {
        JavascriptExecutor jse = (JavascriptExecutor)driver;
        
        jse.executeScript("alert('Hello There');");
-       
-       
        jse.executeScript("document.getElementById('i2').value='manager'");
        
        

@@ -37,8 +37,9 @@ public class Task1Amazon {
 		}
 		op.findElement(By.xpath("//div[@id='contextualIngressPtLabel_deliveryShortLine']")).click();
 		op.findElement(By.xpath("//input[@id='GLUXZipUpdateInput']")).sendKeys("411033");
-		WebElement element = op.findElement(By.xpath("//span[@id='GLUXZipUpdate-announce']"));
-		JavascriptExecutor jse = (JavascriptExecutor)op;
+		WebElement apply = op.findElement(By.xpath("//span[@id='GLUXZipUpdate']/ descendant :: input[@class='f']"));
+		JavascriptExecutor jse= (JavascriptExecutor)driver;
+		jse.executeScript("document", apply);
 		
 		}
 }

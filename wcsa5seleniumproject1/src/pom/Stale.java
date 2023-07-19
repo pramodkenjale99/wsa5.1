@@ -1,6 +1,6 @@
 package pom;
 
-import java.sql.Driver;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -19,9 +19,10 @@ public class Stale {
 		 
 		 WebElement usnTB = driver.findElement(By.name("username"));
 		 //usnTB.sendKeys("admin");
-		 WebElement pssTB = driver.findElement(By.name("pwd"));
+		 WebElement passTB = driver.findElement(By.name("pwd"));
 		 
 		 driver.navigate().refresh();
 		 usnTB.sendKeys("admin");
+		 passTB.sendKeys("Manager");
 	}
 }

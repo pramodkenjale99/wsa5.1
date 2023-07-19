@@ -19,7 +19,8 @@ public class Task1GoogleMaps {
 		driver.findElement(By.xpath("//a[@aria-label='Google apps']")).click();
 		WebElement Map = driver.findElement(By.xpath("//iframe[@cd_frame_id_='71f46043b2199be123e600547cf85a15']"));
 		driver.switchTo().frame(Map);
-		Thread.sleep(2000);
+		driver.switchTo().defaultContent();
+		
 		driver.findElement(By.xpath("//a[@class='tX9u1b']/span[text()='Maps']")).click();
 	}
 }

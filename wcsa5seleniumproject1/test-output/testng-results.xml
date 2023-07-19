@@ -1,47 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[This is demo  in TestNG class]]>
+      <![CDATA[BeforeSuiteAnnotation]]>
     </line>
     <line>
-      <![CDATA[This is Swapx TestNG Class$]]>
+      <![CDATA[BeforeTestAnnotation]]>
     </line>
     <line>
-      <![CDATA[This is N TestNG Class]]>
+      <![CDATA[BeforeClassAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[This is method1 of TestAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[TestAnnotation2]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethodAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterClassAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterTestAnnotation]]>
+    </line>
+    <line>
+      <![CDATA[AfterSuiteAnnotation]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-17T11:24:27 IST" name="Suite1" finished-at="2023-07-17T11:24:27 IST" duration-ms="99">
+  <suite started-at="2023-07-19T15:45:37 IST" name="Default suite" finished-at="2023-07-19T15:45:37 IST" duration-ms="220">
     <groups>
     </groups>
-    <test started-at="2023-07-17T11:24:27 IST" name="Test1" finished-at="2023-07-17T11:24:27 IST" duration-ms="99">
-      <class name="testNGPackage.Sumo">
-        <test-method signature="N()[pri:0, instance:testNGPackage.Sumo@a38c7fe]" started-at="2023-07-17T11:24:27 IST" name="N" finished-at="2023-07-17T11:24:27 IST" duration-ms="2" status="PASS">
+    <test started-at="2023-07-19T15:45:37 IST" name="Default test" finished-at="2023-07-19T15:45:37 IST" duration-ms="220">
+      <class name="testNGAnnotations_Flags.AnnotationsClass">
+        <test-method is-config="true" signature="method6()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method6" finished-at="2023-07-19T15:45:37 IST" duration-ms="46" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is N TestNG Class]]>
+              <![CDATA[BeforeSuiteAnnotation]]>
             </line>
           </reporter-output>
-        </test-method> <!-- N -->
-      </class> <!-- testNGPackage.Sumo -->
-      <class name="testNGPackage.Demo">
-        <test-method signature="f()[pri:0, instance:testNGPackage.Demo@52b1beb6]" started-at="2023-07-17T11:24:27 IST" name="f" finished-at="2023-07-17T11:24:27 IST" duration-ms="13" status="PASS">
+        </test-method> <!-- method6 -->
+        <test-method is-config="true" signature="method8()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method8" finished-at="2023-07-19T15:45:37 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is demo  in TestNG class]]>
+              <![CDATA[BeforeTestAnnotation]]>
             </line>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testNGPackage.Demo -->
-      <class name="testNGPackage.Remo">
-        <test-method signature="S()[pri:0, instance:testNGPackage.Remo@4d5650ae]" started-at="2023-07-17T11:24:27 IST" name="S" finished-at="2023-07-17T11:24:27 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- method8 -->
+        <test-method is-config="true" signature="method4()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method4" finished-at="2023-07-19T15:45:37 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[This is Swapx TestNG Class$]]>
+              <![CDATA[BeforeClassAnnotation]]>
             </line>
           </reporter-output>
-        </test-method> <!-- S -->
-      </class> <!-- testNGPackage.Remo -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- method4 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method3" finished-at="2023-07-19T15:45:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethodAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method1()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method1" finished-at="2023-07-19T15:45:37 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is method1 of TestAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method2" finished-at="2023-07-19T15:45:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethodAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method3()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method3" finished-at="2023-07-19T15:45:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethodAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method10()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method10" finished-at="2023-07-19T15:45:37 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestAnnotation2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method10 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method2" finished-at="2023-07-19T15:45:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethodAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method5()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method5" finished-at="2023-07-19T15:45:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClassAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method is-config="true" signature="method9()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method9" finished-at="2023-07-19T15:45:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterTestAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method9 -->
+        <test-method is-config="true" signature="method7()[pri:0, instance:testNGAnnotations_Flags.AnnotationsClass@8462f31]" started-at="2023-07-19T15:45:37 IST" name="method7" finished-at="2023-07-19T15:45:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterSuiteAnnotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+      </class> <!-- testNGAnnotations_Flags.AnnotationsClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

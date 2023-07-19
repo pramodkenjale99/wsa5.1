@@ -1,14 +1,28 @@
 package testNGPackage;
 
-import org.testng.Reporter;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import java.time.Duration;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 
 public class Demo {
   @Test
-  public void f() {
-	 // System.out.println("This is demo testng class");
-	 // Reporter.log("This is TestNG");
-	  Reporter.log("This is demo  in TestNG class",true);
+  public void f() throws InterruptedException {
+	
+	  System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+	  WebDriver driver = new ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+	  driver.get("https://www.google.com/");
+	  driver.switchTo().activeElement().sendKeys("java",Keys.ENTER);
+	  Thread.sleep(2000);
+	  driver.quit();
+	  Reporter.log("This is Demo TestNG class", true);
 	  
   }
 }
